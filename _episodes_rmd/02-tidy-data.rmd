@@ -24,11 +24,11 @@ Often, you will deal with 'wide' data. That is, data with lots of columns and fe
 In R, the preferred format is 'long', where one column contains all of the values with the remaining columns giving those columns context. Below is
 an example of data in a wide format,
 
-![alt text](https://github.com/RobHarrand/life-sciences-spreadsheet-best-practice/tree/gh-pages/fig/01-wide-data.png "Wide data")
+![alt text](../fig/01-wide-data.png "Wide data")
 
 Here is the same data restructured in a long format,
 
-![alt text](https://github.com/RobHarrand/life-sciences-spreadsheet-best-practice/tree/gh-pages/fig/02-long-data.png "Long data")
+![alt text](../fig/02-long-data.png "Long data")
 
 This format, where each row corresponds to a single data point or observation, is also know as 'tidy data', and is the preferred format in R. The goal
 at the start of any data analysis should be to get your data into this format when possible.

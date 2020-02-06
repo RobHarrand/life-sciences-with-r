@@ -16,7 +16,7 @@ We've seen how R comes with a variety of built-in functions, and we've used many
 
 This list can be overwhelming. Go to 'find' on your browser and type in 'drc'. Go through the matched items until you see the package called 'drc'. Click on it and you'll see that it's described as *"Analysis of dose-response data is made available through a suite of flexible and versatile model fitting and after-fitting functions."*
 
-![alt text](https://github.com/RobHarrand/life-sciences-with-r/tree/gh-pages/fig/05-drc.png "drc package")
+![alt text](../fig/05-drc.png "drc package")
 
 There is a lot of information here. The part that's possibly of the most use is the reference manual in the form of a PDF. Every package in R comes with a reference manual like this, and outlines all of the additional functions and how to use them. We'll return to this package later.
 

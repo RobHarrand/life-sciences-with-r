@@ -40,7 +40,7 @@ library('ggplot2')
 Let's take a look at how to use this new package,
 
 ```{r}
-elisa = read.csv('data/data_carpentry_test_data.csv') #Load the data
+elisa = read.csv('../data/data_carpentry_test_data.csv') #Load the data
 colnames(elisa) = paste0('Col_', seq(1:13)) #Change the column names
 
 ggplot(data = elisa, aes(x=Col_1, y=Col_2)) +
@@ -148,7 +148,7 @@ Take a couple of minutes to look over the code and read the associated comments,
 ```{r}
 bulk_plots = function(keyword) {
   
-  files = list.files(path = "data/", 
+  files = list.files(path = "../data/", 
                      pattern = keyword,
                      full.names = T)
   
@@ -171,7 +171,7 @@ bulk_plots = function(keyword) {
                 data=elisa_stds)
     
     #save the plot to a png file,
-    png(filename = paste0("data/", 'plot_', n, '_', Sys.Date(), '.png'))
+    png(filename = paste0("../data/", 'plot_', n, '_', Sys.Date(), '.png'))
     
       plot(curve_4pl, col = 'red', main = paste('Plot ', n)) #create the plot
     

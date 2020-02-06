@@ -18,7 +18,7 @@ The easiest way to get help is to write the name of the function you're interest
 #?plot
 ```
 
-This brings up the help file for the function. Beyond this, there are many websites with guides and user forums with guidance. Often, just searching on Google for the problem you're trying to solve (e.g. *'How do I plot a histogram in R?'*) or searching for the error message (e.g. *'non-numeric argument to binary operator'*) will lead you to the answer.
+This brings up the help file for the function (a function is a package of code that performs a particular task). Beyond this, there are many websites with guides and user forums with guidance. Often, just searching on Google for the problem you're trying to solve (e.g. *'How do I plot a histogram in R?'*) or searching for the error message (e.g. *'non-numeric argument to binary operator'*) will lead you to the answer.
 
 There are also a number of websites that may be of use, including,
 
@@ -181,12 +181,12 @@ numbers = c(2.34, 4.53, 1.42, 1.42, 9.41, 8.54)
 
 and investigate the following functions,
 
-- round
-- sqrt
-- mean
-- median
-- max
-- sort
+- round()
+- sqrt()
+- mean()
+- median()
+- max()
+- sort()
 
 These are useful functions for applying to existing numerical data. There are also functions that are useful for being applied to non-numerical data.
 
@@ -200,12 +200,12 @@ terms = c('Serum', 'Blood', 'Plasma', 'Blood', 'Blood', 'Plasma')
 
 and investigate the following functions,
 
-- sort
-- order
-- table
+- sort()
+- order()
+- table()
 
 
-There are also plenty of functions for *creating* data. For example, 'rnorm' will give you random numbers from the normal distribution.
+There are also plenty of functions for *creating* data. For example, **rnorm()** will give you random numbers from the normal distribution.
 
 #### Exercise
 
@@ -213,13 +213,13 @@ There are also plenty of functions for *creating* data. For example, 'rnorm' wil
 2. Run your code several times. What do you notice?
 3. Type 'set.seed(123)' above your code. Now, run both lines together several times. What do you notice?
 
-Other useful functions are 'seq' and 'rep', which general a sequence of numbers and repeated numbers (or words), respectively.
+Other useful functions are **seq()** and **rep()**, which general a sequence of numbers and repeated numbers (or words), respectively.
 
 #### Exercise
 
 1. Create a vector of numbers from 1 to 10
 2. Create a second vector of the square root of the first vector
-3. Pick 4 random values from the second vector (hint: use the 'sample' command)
+3. Pick 4 random values from the second vector (hint: use the 'sample()' function)
 
 
 ### Data types and structures
@@ -227,11 +227,11 @@ Other useful functions are 'seq' and 'rep', which general a sequence of numbers 
 Data types in R mainly consist of the following,
 
 - numeric
-- interger
+- integer
 - character
 - logical
 
-The type of data you're dealing with will limit the sort of things that you can do with them, so it's important to know what you have. There are several ways to check, one of which is 'typeof'.
+The type of data you're dealing with will limit the sort of things that you can do with them, so it's important to know what you have. There are several ways to check, one of which is 'typeof()'.
 We've already encountered each of these data types to some extent. The 'logical' data type is extremely important when dealing with missing values, and a very useful function when checking for
 missing values is **is.na()**. For example,
 
@@ -254,7 +254,7 @@ Data structures are collections of the above, and we've already seen one of thes
 - matrix
 - data-frame
 
-Lists are like vectors, but they can contain any sort of mixture of data types. Matrices are 2-dimensional structures used in various areas of science and statisitics. The data-type that most 
+Lists are like vectors, but they can contain a mixture of data types. Matrices are 2-dimensional structures used in various areas of science and statistics. The data-type that most 
 resembles a spreadsheet is the data-frame, which we'll see in the next section on loading data.
 
 ### Sub-setting
@@ -266,12 +266,12 @@ matrix. You may even wish to subset a character vector and pick out, say, the fi
 
 Subsetting typically works by indicting the position or index of the data that you want.
 
-1. Create the following vector,
+1. Preceded by set.seed(123), create the following vector,
 
 ```{r}
 numbers = rnorm(n=5)
 ```
-preceded by set.seed(123).
+
 
 2. Type 'numbers' to see your generated vector
 3. Type 'numbers[3]'. What do you get?

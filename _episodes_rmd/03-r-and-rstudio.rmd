@@ -15,20 +15,20 @@ keypoints:
 R is a programming language designed specifically for statistics and data analysis. It's used worldwide in all industries, including science, finance, 
 healthcare and government, by companies such as Facebook, Twitter, Microsoft and Google. Below is an image of what it looks like,
 
-![alt text](https://github.com/RobHarrand/life-sciences-spreadsheet-best-practice/blob/gh-pages/fig/01-r-screen-shot.png "R screen-shot")
+![alt text](https://github.com/RobHarrand/life-sciences-with-r/tree/gh-pages/fig/03-r-screen-shot.png "R screen-shot")
 
 As you can see, it doesn't look particularly easy to use. After all the text information at the top that loads each time, you can see the actual
 command prompt (where code is entered) at the bottom. Here, '2+2' has been entered, giving the result of 4.
 
 ### RStudio
 
-To allow R to be used for realworld data projects, a program called RStudio is used, which effectively sits ontop of R. This allows the R functionality
+To allow R to be used for real-world data projects, a program called RStudio is used, which effectively sits on top of R. This allows the R functionality
 to be used, but in a modern programming environment. RStudio allows you to not only write lines of code, but to create projects (where all relevant 
-files and data are bundled together), notebooks (documents with text and code integrated together), presentation slides and interactive apps.
+files and data are bundled together), notebooks (documents with text and code integrated together), presentation slides, websites and interactive apps.
 
 Below us an image of what it looks like,
 
-![alt text](https://github.com/RobHarrand/life-sciences-spreadsheet-best-practice/blob/gh-pages/fig/02-rstudio-screen-shot.png "RStudio screen-shot")
+![alt text](https://github.com/RobHarrand/life-sciences-with-r/tree/gh-pages/fig/04-rstudio-screen-shot.png "RStudio screen-shot")
 
 The 4 main areas (which may be positioned differently on your screen) are,
 
@@ -47,7 +47,7 @@ numbers = c(1,2,3,4,5)
 
 Press CTRL-Enter. What happens?
   
-2. On a differen line, type,
+2. On a different line, type,
 
 ```{r}
 total = sum(numbers)
